@@ -4,6 +4,8 @@
   "description": "microservice with docker",
   "main": "app.js",
   "scripts": {
+    "start": "node .",
+    "start-watch": "nodemon .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -12,10 +14,17 @@
     "nodejs",
     "express"
   ],
-  "author": "enjoyable_programming",
+  "author": "MARN, AASH",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruvo99/Aplicacion1_Practica4_Cloud"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
